@@ -8,7 +8,7 @@ import ProjectPage from "./landing_page/projects/ProjectPage"
 import Login from "./auth/Login.jsx";
 import Sign from "./auth/Sign.jsx";
 import Internship from './landing_page/home/Internship'; 
-import ViewTask from './landing_page/home/viewTask';
+import ViewTask from './landing_page/home/ViewTask';
 
 import { useState } from "react";
 function App() {
