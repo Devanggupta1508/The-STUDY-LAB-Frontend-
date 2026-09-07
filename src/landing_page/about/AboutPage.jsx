@@ -3,7 +3,7 @@ import OpenAccount from '../home/OpenAccount'
 import Footer from '../home/Footer'
 import AboutStory from "./AboutStory"; 
 import AboutPeople from "./AboutPeople"; 
-import FooterAbout from "../home/about"
+import FooterAbout from "../home/About"
 
 function AboutPage() {
     return (
