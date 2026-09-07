@@ -23,14 +23,14 @@ function App() {
      <Route path="/Internship" element={<Internship/>}></Route>
      <Route path = "/ViewTask" element = {<ViewTask/>}></Route>
     <Route path="/about" element={<AboutPage/>}></Route>
-   
-<Route 
-  path="/notes" 
-  element={isLoggedIn ? <NotesPage/> : <Navigate to="/login" />} />
 
-<Route 
-  path="/pyqs" 
-  element={isLoggedIn ? <PYQPage/> : <Login setIsLoggedIn={setIsLoggedIn} />}  />
+        <Route path="/notes" element={<NotesPage/>}></Route>
+
+            <Route path="/pyqs" element={<PYQPage/>}></Route>
+
+
+   
+
 
       <Route path = "/project" element = {<ProjectPage/>}></Route>
 

@@ -10,7 +10,7 @@ function Login({ setIsLoggedIn }) {
   const handleSubmit = (e) => {
     e.preventDefault(); // page reload stop 
     setIsLoggedIn(true);
-    navigate("/notes"); // login ke baad redirect
+    navigate("/pyqs"); // login ke baad redirect
   };
 
   return (

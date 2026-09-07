@@ -1,9 +1,9 @@
-
+import ADBD from "./ADBD Sample paper.pdf";
 
 function PYQs(){
      const handleClick = (e) => {
         e.preventDefault();
-        alert("Site is under Construction");
+        alert("Sample paper will be available before your exam. Stay tuned!");
     };
 
     return( 
@@ -38,9 +38,8 @@ function PYQs(){
                            
                             <a href="#" className="border p-3 text-decoration-none fs-5 m-2" style={{borderRadius:"100px"}}onClick={handleClick}>Advanced Object Teachnology (20MCA22C1)</a>
 
-                        <a href="#" className="border p-3 text-decoration-none fs-5 m-2" style={{borderRadius:"100px"}}
-                        onClick={handleClick}> Advanced Database Warehouse (20MCA22C2) </a> 
-
+                  <a href={ADBD} target="_blank" rel="noopener noreferrer"  className="border p-3 text-decoration-none fs-5 m-2"  style={{ borderRadius: "100px" }}>Advanced Database Warehouse (20MCA22C2) </a>
+   
                         
                         <a href="#" className="border p-3 text-decoration-none fs-5 m-2" style={{borderRadius:"100px"}} 
                         onClick={handleClick}>Operating System & Shell Programming (20MCA22C3) </a> 
