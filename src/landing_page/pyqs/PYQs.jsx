@@ -1,4 +1,9 @@
+import Ecommerce from "./EcommerceSamplePaper.pdf";
 import ADBD from "./ADBD Sample paper.pdf";
+import   CloudComputing from "./CloudComputingSamplePaper.pdf";
+
+
+
 
 function PYQs(){
      const handleClick = (e) => {
@@ -48,7 +53,11 @@ function PYQs(){
                             
                             Web Technology(20MCA22DA3)  </a> 
 
-                         <a href="#" className="border p-3 text-decoration-none fs-5 m-2" style={{borderRadius:"100px"}}  onClick={handleClick}> Cloud Computing(20MCA22DB1) </a> </div>  
+                         <a href={CloudComputing} className="border p-3 text-decoration-none fs-5 m-2" style={{borderRadius:"100px"}} > Cloud Computing(20MCA22DB1) </a> 
+
+                            <a href={Ecommerce} className="border p-3 text-decoration-none fs-5 m-2" style={{borderRadius:"100px"}}> E-commerce (16COMF2) (Foundation Elective Paper ) </a> 
+                         
+                         </div>  
 
                                     <h3 className="text-center m-2"> Semester 3</h3> 
                                     { <p className="text-center"> Semester PYQs Coming Soon...</p>/*
